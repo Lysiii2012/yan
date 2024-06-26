@@ -325,11 +325,16 @@ h2{
     padding: 14px 32px;
     cursor: pointer;
     font-size: 20px;
+    margin: 0 auto;
     border: none;
     border-radius: 12px;
     transition: background .5s;
     background: #eef1f7;
     font-weight: 600;
+}
+.form-calc button:hover{
+    background: #ac22cf;
+    color: #fff;
 }
 .whay0we p{
     margin-bottom: 20px; 
@@ -441,6 +446,10 @@ h2{
     background: rgb(78, 118, 252) ;
     color: #fff;
     font-weight: 600;
+    transition: all .3s linear;
+ }
+ .container-form input[type="submit"]:hover{
+    background: rgb(252, 78, 78) ;
  }
  .container-form h2{
     margin: 10px 0 20px;
@@ -644,7 +653,11 @@ section {
     color: #444;
     text-decoration: none;
     display: inline-block;
+    transition: all .3s linear;
     margin-bottom: 20px;
+}
+.footer a:hover{
+    color: #ffffffbf;
 }
 .row{
     display: flex;
