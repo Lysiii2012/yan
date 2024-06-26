@@ -446,6 +446,7 @@ h2{
     background: rgb(78, 118, 252) ;
     color: #fff;
     font-weight: 600;
+    cursor: pointer;
     transition: all .3s linear;
  }
  .container-form input[type="submit"]:hover{
